@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Geocentrism</title>    
+    <style>
+      body {
+        margin: 0;
+      }
+      canvas {
+        display: block;
+      }
+
+      /* Slider styles */
+      #speedSlider {
+        position: absolute;
+        top: 60px;
+        left: 15px;
+        z-index: 10;
+      }
+
+      #speedValue {
+        position: absolute;
+        top: 45px;
+        left: 15px;
+        color: white;
+        z-index: 10;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <input
+        type="range"
+        id="speedSlider"
+        min="0"
+        max="1"
+        step=".0001"
+        value="0.0375"
+      />
+      <span id="speedValue">Speed: 0.150</span>
+    </div>
+    <canvas id="myCanvas"></canvas>
+   <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/build/three.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/js/controls/OrbitControls.js"></script>    
+   <script src="script.js"></script>
+  </body>
+</html>
