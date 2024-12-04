@@ -31,7 +31,7 @@ The primary aim of this simulation is to:
 
 ## How to Run
 
-1. **Clone the repository:** `git clone https://github.com/your-username/your-repository-name.git`
+1. **Clone the repository:** `git clone https://github.com/TylerAlbaz/Neo-Tychonic-Geocentrism.git`
 2. **Install dependencies:** `npm install`
 3. **Run a local web server:** Use the Live Server extension in VS Code or another local web server.
 4. **Open in browser:** Open the `index.html` file in your web browser.
@@ -57,4 +57,8 @@ The primary aim of this simulation is to:
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project, "Neo-Tychonic Geocentrism" is licensed under the Creative Commons Attribution 4.0 International License. 
+
+See [LICENSE.md](LICENSE.txt) for details.
+
+You can find a copy of the license at: https://creativecommons.org/licenses/by/4.0/
