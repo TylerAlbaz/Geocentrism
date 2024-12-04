@@ -59,6 +59,6 @@ The primary aim of this simulation is to:
 
 This project, "Neo-Tychonic Geocentrism" is licensed under the Creative Commons Attribution 4.0 International License. 
 
-See [LICENSE.md](LICENSE.txt) for details.
+See [LICENSE.md](LICENSE.md) for details.
 
 You can find a copy of the license at: https://creativecommons.org/licenses/by/4.0/
