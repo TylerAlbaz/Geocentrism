@@ -92,6 +92,7 @@ const moonGeometry = new THREE.SphereGeometry(0.1, 256, 256);
 const moonTexture = new THREE.TextureLoader().load('https://cdn.glitch.global/7a868a8c-2319-413f-a624-39dceacba017/Moon.jpg?v=1732383168745');
 const moonMaterial = new THREE.MeshBasicMaterial({map: moonTexture});
 const moon = new THREE.Mesh(moonGeometry, moonMaterial);
+moon.rotation.y = Math.PI; // Tidally locked to Earth
 moon.position.set(1.5, 0, 0); // Initial position relative to its orbit object
 
 // Create Moon's orbit object
@@ -658,9 +659,6 @@ function animate() {
   const moonX = 1.5 * Math.cos(moonOrbitAngle);  
   const moonZ = 1.5 * Math.sin(moonOrbitAngle);
   moon.position.set(moonX, 0, moonZ);
-  
-  // Rotate the Moon to face the Earth
-  moon.rotation.y = moonOrbitAngle; 
 
         planetData.forEach(planet => {
             // Calculate planet's rotation speed
